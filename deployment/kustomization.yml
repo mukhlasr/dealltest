@@ -1,0 +1,8 @@
+secretGenerator:
+- name: secrets
+  literals:
+  - pg_password=password
+  - pg_database=simpleblog
+resources:
+  - postgres-deployment.yml
+  - simpleblog-deployment.yml
